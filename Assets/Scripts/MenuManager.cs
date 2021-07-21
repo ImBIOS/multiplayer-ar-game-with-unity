@@ -20,6 +20,8 @@ public class MenuManager : MonoBehaviourPunCallbacks
     {
         createRoomBtn.interactable = false;
         joinRoomBtn.interactable = false;
+        // buatanku
+        SetMenu(mainMenu);
     }
     public override void OnConnectedToMaster()
     {
